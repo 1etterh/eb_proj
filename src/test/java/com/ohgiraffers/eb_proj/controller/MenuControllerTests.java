@@ -19,7 +19,7 @@ class MenuControllerTests {
     @Autowired
     private MockMvc mockMvc;
 
-    @DisplayName("상태확인")
+    @DisplayName("상태확인!")
     @Test
     public void healthCheckTest() throws Exception {
         mockMvc.perform(get("/health"))
